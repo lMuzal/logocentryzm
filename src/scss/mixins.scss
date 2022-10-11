@@ -1,0 +1,17 @@
+ 
+@mixin background-col() {
+  background: linear-gradient(90deg, rgb(255, 77, 2), rgb(199, 90, 72), rgb(110, 49, 68));
+    // background: rgb(20, 52, 36);
+
+}
+
+@mixin background-col-reverse() {
+  // background: linear-gradient(90deg, rgb(110, 49, 68), rgb(199, 90, 72), rgb(253, 197, 52));
+    background: rgb(20, 52, 36);
+
+}
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+}
