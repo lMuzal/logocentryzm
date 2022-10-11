@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/logocentryzm/index.html/static/css/main.10fc8552.css",
+    "main.js": "/logocentryzm/index.html/static/js/main.a2eb4d33.js",
+    "static/media/background_vid.mp4": "/logocentryzm/index.html/static/media/background_vid.6278e8bf9daadcb53015.mp4",
+    "index.html": "/logocentryzm/index.html/index.html",
+    "main.10fc8552.css.map": "/logocentryzm/index.html/static/css/main.10fc8552.css.map",
+    "main.a2eb4d33.js.map": "/logocentryzm/index.html/static/js/main.a2eb4d33.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.10fc8552.css",
+    "static/js/main.a2eb4d33.js"
+  ]
+}
