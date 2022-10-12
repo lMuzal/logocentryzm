@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/logocentryzm/static/css/main.10fc8552.css",
-    "main.js": "/logocentryzm/static/js/main.8a9659a3.js",
-    "static/media/background_vid.mp4": "/logocentryzm/static/media/background_vid.6278e8bf9daadcb53015.mp4",
-    "index.html": "/logocentryzm/index.html",
-    "main.10fc8552.css.map": "/logocentryzm/static/css/main.10fc8552.css.map",
-    "main.8a9659a3.js.map": "/logocentryzm/static/js/main.8a9659a3.js.map"
+    "main.css": "/logocentryzm/index.html/static/css/main.10fc8552.css",
+    "main.js": "/logocentryzm/index.html/static/js/main.a2eb4d33.js",
+    "static/media/background_vid.mp4": "/logocentryzm/index.html/static/media/background_vid.6278e8bf9daadcb53015.mp4",
+    "index.html": "/logocentryzm/index.html/index.html",
+    "main.10fc8552.css.map": "/logocentryzm/index.html/static/css/main.10fc8552.css.map",
+    "main.a2eb4d33.js.map": "/logocentryzm/index.html/static/js/main.a2eb4d33.js.map"
   },
   "entrypoints": [
     "static/css/main.10fc8552.css",
-    "static/js/main.8a9659a3.js"
+    "static/js/main.a2eb4d33.js"
   ]
 }
