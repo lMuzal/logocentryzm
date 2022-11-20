@@ -1,5 +1,14 @@
 
 @import 'mixins.scss';
+@import 'Navbar.scss';
+@import 'Header.scss';
+@import 'Home.scss';
+@import 'About.scss';
+@import 'Appointments.scss';
+@import 'Materials.scss';
+@import 'Contact.scss';
+@import 'MediaQueries.scss';
+
 
 
 *{
@@ -23,7 +32,8 @@ video {
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: -1;
+  z-index: -0;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .content{
@@ -34,12 +44,6 @@ video {
   @include background-col;
 }
 
-h1{
-  @include flex-center;
-  font-family: 'Poiret One';
-  color: antiquewhite;
-  font-size: 35px;
-}
 
 .text{
   color: antiquewhite;
@@ -49,90 +53,8 @@ h1{
   transition: all 3s ease;
 }
 
-.wrapper{
-  display: flex;
-  flex-direction: column;
-}
 
-.header-wrap{
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  .menu-button{
-    width: 100%;
-    margin: 1% 1% 1% 3%;
-    z-index: 10;
-    .fa-bars{
-      position: sticky;
-      top: 2%;
-      font-size: 20px;
-      color: antiquewhite;
-      z-index: 1;
-      transition: 1s;
-      cursor: pointer;
-      &:hover{
-        color: rgb(255, 77, 2);
-      }
-    }
-  }
-  .brand-name{
-    min-width: 80%;
-    text-align: center;
-    font-size: 1rem;
-    letter-spacing: 5px;
-    color: antiquewhite;
-    font-family: 'Poiret One';
-    @include background-col;
-  }
-  #filler{
-    min-width: 10%;
-  }
-}
-.menu-bar{
-  background-color: rgba(0,0,0,0.9);
-  width: 100vw;
-  height: 100vh;
-  padding-top: 30vh; // increase the value with higher resolution
-  position: fixed;
-  top: 0;
-  left: 0;
-  transition: all 1s ease;
-  translate: -1500px;
-  z-index: 2;
-}
 
-ul{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  list-style: none;
-  font-family: roboto;  
-
-  .menu-button-container{
-    min-width: 15%;
-  }
-  li{
-    font-size: 1.5rem;
-    padding-bottom: 5%;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    color: antiquewhite;
-    font-family: 'Poiret One';
-    transition: 0.5s ease;
-    -webkit-text-stroke-width: 0.5px;
-    -webkit-text-stroke-color: transparent;
-    &:hover{
-      cursor: pointer;
-      color: transparent;
-      font-weight: bolder;
-      letter-spacing: 1px;
-      -webkit-text-stroke-width: 1px;
-      -webkit-text-stroke-color: white;
-    }
-  }
-}
 
 // .certificates{
 //   display: flex;
@@ -173,68 +95,6 @@ ul{
 // background-image: url(imgs/depositphotos_9725775-stock-illustration-gold-detailed-certificate.jpg);
 // }
 
-.materialOverlay{
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: flex;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0,0,0,0.95);
-  z-index: 9;
-  justify-content: center;
-  align-items: center;
-  #overlay-close-button{
-    margin: 2rem;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: rgba(255,255,255,0.6);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: fixed;
-    align-self: flex-start;
-    cursor: pointer;
-    transition: 1s ease;
-      &:hover{
-        background-color: black;
-        color: white;
-      }
-  }
-  .login{
-    @include background-col;
-    height: 200px;
-    width: 300px;
-    font-family: 'Poiret One';
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    h4{
-      text-align: center;
-      color: antiquewhite;
-      display: flex;
-      justify-content: center;
-      padding-bottom: 10%;
-    }
-    #login-form{
-      display: flex;
-      flex-direction: column;
-      input{       
-        @include background-col;
-        font-family: 'Poiret One';
-        color: antiquewhite;
-        font-weight: bolder;
-        margin-bottom: 2%;
-      }
-    }
-  }
-}
 
 
-@media only screen and (min-width: 660px){
-.brand-name{
-  padding-top: 2%;
-};
-};
+
